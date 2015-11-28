@@ -1,0 +1,5 @@
+[test]
+192.168.0.17
+
+[test:vars]
+nazwa_pliku=gucio

@@ -1,0 +1,5 @@
+- hosts: test
+  tasks:
+      - command: find /tmp/ -type f -iname {{ item }} -delete
+        with_items: "{{ lista }}"
+        when: "lista is defined"
