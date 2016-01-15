@@ -1,3 +1,4 @@
+---
 - hosts: test
   tasks:
       - command: find /tmp/ -type f -iname {{ item }} -delete
